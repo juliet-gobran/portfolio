@@ -18,14 +18,14 @@ export default function Header() {
             Juliet Gobran
           </Typography>
         </Grid>
-        <Grid item>
+        <Grid item >
           <Typography
             variant="h2"
             color="primary" >
             Engineer<br />Designer
           </Typography>
         </Grid>
-        <Grid item>
+        <Grid item >
           <Typography
             variant="h2"
             color="info.main" >

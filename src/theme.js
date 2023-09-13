@@ -27,15 +27,25 @@ const theme = createTheme({
       fontWeight: 900,
       textTransform: 'uppercase',
     },
+    h3: {
+      fontSize: '42px',
+      fontWeight: 400,
+    },
+    h4: {
+      fontSize: '16px',
+      fontWeight: 400,
+      textTransform: 'uppercase',
+    },
     h5: {
       fontSize: '16px',
       fontWeight: 500,
     },
     p: {
-      fontSize: '16px',
+      fontSize: '14px',
       fontWeight: 400,
     },
   },
 });
 
 export default theme;
+
