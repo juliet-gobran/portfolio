@@ -33,6 +33,9 @@ export default function Header() {
           </Typography>
         </Grid>
       </Grid>
+      <Typography variant="p" color="primary.main">
+        🚧 Work in progress... Check back soon! 🚧
+      </Typography>
     </Box>
   );
 }
