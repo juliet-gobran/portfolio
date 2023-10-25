@@ -10,6 +10,9 @@ function ProjectMediaIn(props) {
                 p: 2,
                 alignItems: "center",
                 justifyContent: "flex-start",
+                border: 2,
+                borderRadius: "4px",
+                borderColor: "grey.400",
             }}>
             <Box
                 align="left"
@@ -28,7 +31,7 @@ function ProjectMediaIn(props) {
                     variant="h4">
                     {props.subtitle}
                 </Typography>
-                <div>{props.extraMiddle}</div>
+                {props.extraMiddle}
                 <Typography
                     variant="p"
                     color="common.black">

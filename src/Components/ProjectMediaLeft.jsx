@@ -10,6 +10,10 @@ function ProjectMediaLeft(props) {
                 p: 2,
                 alignItems: "flex-start",
                 justifyContent: "flex-start",
+                border: 2,
+                borderRadius: "4px",
+                borderColor: "grey.400",
+                gap: 2,
             }}>
             <Box
                 component={props.type}
@@ -23,7 +27,6 @@ function ProjectMediaLeft(props) {
             <Box
                 align="left"
                 sx={{
-                    px: 2,
                     textAlign: "justify",
                     textJustify: "inter-word",
                     display: "flex",
@@ -40,7 +43,7 @@ function ProjectMediaLeft(props) {
                 </Typography>
                 <Box
                     sx={{
-                        backgroundColor: "common.black",
+                        backgroundColor: "grey.400",
                         height: "4px",
                         width: 1,
                         borderRadius: "4px",
@@ -50,7 +53,7 @@ function ProjectMediaLeft(props) {
                     color="common.black">
                     {props.description}
                 </Typography>
-                <div>{props.extra}</div>
+                {props.extra}
             </Box>
         </Box>
     );
