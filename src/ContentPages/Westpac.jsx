@@ -29,7 +29,7 @@ export default function WestpacContent() {
                 />
                 <ProjectMediaLeft
                     type="img"
-                    imgSRC="/Assets/ChopperDemoShort.gif"
+                    imgSRC="/ChopperDemoShort.gif"
                     title="Chopper"
                     subtitle="Living & breathing Component Library"
                     description={<div>
@@ -41,7 +41,7 @@ export default function WestpacContent() {
                 />
                 <ProjectMediaRight
                     type="img"
-                    imgSRC="/Assets/WorkSmartDASH.gif"
+                    imgSRC="/WorkSmartDASH.gif"
                     title="WorkSMART"
                     subtitle="Internal App for a better 'Employee Experience'"
                     description={<div>
@@ -58,7 +58,7 @@ export default function WestpacContent() {
                                     maxWidth: "40%",
                                     borderRadius: "4px",
                                 }}
-                                src="/Assets/ServiceNow-logo.png"
+                                src="/ServiceNow-logo.png"
                                 alt="logo" />
                         </a>
                     }
@@ -87,7 +87,7 @@ export default function WestpacContent() {
                                 gap: 1,
                             }}>
                             <video controls autoPlay muted width="100%">
-                                <source src="/Assets/ModularBankingAtWestpac.mp4" type="video/mp4" />
+                                <source src="/ModularBankingAtWestpac.mp4" type="video/mp4" />
                             </video>
                             <Typography
                                 variant="p"
@@ -95,7 +95,7 @@ export default function WestpacContent() {
                                 Once the pitch was successful with the board, the first module was <strong>Message Centre.</strong> This video helped share to the wider team the impact of Modular Banking.
                             </Typography>
                             <video controls autoPlay muted width="100%">
-                                <source src="/Assets/MessageCentre-Westpac.mp4" type="video/mp4" />
+                                <source src="/MessageCentre-Westpac.mp4" type="video/mp4" />
                             </video>
                         </Box>
                     }
@@ -130,7 +130,7 @@ export default function WestpacContent() {
                                     maxWidth: "100%",
                                     borderRadius: "4px",
                                 }}
-                                src="/Assets/WBG-IconFont.png"
+                                src="/WBG-IconFont.png"
                                 alt="PNG showing icon font" />
                             <Typography
                                 variant="p"

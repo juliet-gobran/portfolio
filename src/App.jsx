@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Box
         component="img"
-        src="/Assets/MenuBar.svg"
+        src="/MenuBar.svg"
         width="100%"
         position="fixed"
         top="0" />

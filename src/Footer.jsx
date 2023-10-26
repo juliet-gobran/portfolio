@@ -9,7 +9,7 @@ export default function Footer() {
       bottom="0"
       width="100%" >
       <Box component="img"
-        src="/Assets/JulietsDock.svg"
+        src="/JulietsDock.svg"
         width="60%" />
     </Box>
   );

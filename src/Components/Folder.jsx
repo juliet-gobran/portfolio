@@ -32,7 +32,7 @@ function FolderButton({ name, Contents }) {
                     sx={{ maxWidth: "140px" }} >
                     <img
                         id="Folder"
-                        src="Assets/FolderClosed.svg" />
+                        src="/FolderClosed.svg" />
                     <Typography
                         variant="h5"
                         color="common.black"
