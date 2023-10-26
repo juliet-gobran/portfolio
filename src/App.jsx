@@ -4,13 +4,14 @@ import Header from './Header';
 import Footer from './Footer';
 import FolderButton from './Components/Folder';
 import WestpacContent from './ContentPages/Westpac';
+import menubarASS from '/assets//MenuBar.svg';
 
 export default function App() {
   return (
     <div>
       <Box
         component="img"
-        src="/MenuBar.svg"
+        src={menubarASS}
         width="100%"
         position="fixed"
         top="0" />

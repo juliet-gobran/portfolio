@@ -4,6 +4,12 @@ import ContentsHeader from '../Components/ContentsHeader';
 import ProjectMediaLeft from '../Components/ProjectMediaLeft';
 import ProjectMediaIn from '../Components/ProjectMediaIn';
 import ProjectMediaRight from '../Components/ProjectMediaRight';
+import chopperASS from '/assets/ChopperDemoShort.gif';
+import worksmartASS from '/assets/WorkSmartDASH.gif';
+import servicenowASS from '/assets/ServiceNow-logo.png';
+import modbankingASS from '/assets/ModularBankingAtWestpac.mp4';
+import messagecentreASS from '/assets/MessageCentre-Westpac.mp4';
+import iconfontASS from '/assets/WBG-IconFont.png';
 
 export default function WestpacContent() {
     return (
@@ -29,7 +35,7 @@ export default function WestpacContent() {
                 />
                 <ProjectMediaLeft
                     type="img"
-                    imgSRC="/ChopperDemoShort.gif"
+                    imgSRC={chopperASS}
                     title="Chopper"
                     subtitle="Living & breathing Component Library"
                     description={<div>
@@ -41,7 +47,7 @@ export default function WestpacContent() {
                 />
                 <ProjectMediaRight
                     type="img"
-                    imgSRC="/WorkSmartDASH.gif"
+                    imgSRC={worksmartASS}
                     title="WorkSMART"
                     subtitle="Internal App for a better 'Employee Experience'"
                     description={<div>
@@ -58,7 +64,7 @@ export default function WestpacContent() {
                                     maxWidth: "40%",
                                     borderRadius: "4px",
                                 }}
-                                src="/ServiceNow-logo.png"
+                                src={servicenowASS}
                                 alt="logo" />
                         </a>
                     }
@@ -87,7 +93,7 @@ export default function WestpacContent() {
                                 gap: 1,
                             }}>
                             <video controls autoPlay muted width="100%">
-                                <source src="/ModularBankingAtWestpac.mp4" type="video/mp4" />
+                                <source src={modbankingASS} type="video/mp4" />
                             </video>
                             <Typography
                                 variant="p"
@@ -95,7 +101,7 @@ export default function WestpacContent() {
                                 Once the pitch was successful with the board, the first module was <strong>Message Centre.</strong> This video helped share to the wider team the impact of Modular Banking.
                             </Typography>
                             <video controls autoPlay muted width="100%">
-                                <source src="/MessageCentre-Westpac.mp4" type="video/mp4" />
+                                <source src={messagecentreASS} type="video/mp4" />
                             </video>
                         </Box>
                     }
@@ -130,7 +136,7 @@ export default function WestpacContent() {
                                     maxWidth: "100%",
                                     borderRadius: "4px",
                                 }}
-                                src="/WBG-IconFont.png"
+                                src={iconfontASS}
                                 alt="PNG showing icon font" />
                             <Typography
                                 variant="p"
