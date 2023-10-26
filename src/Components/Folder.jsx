@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Box, Typography, Button, Modal } from '@mui/material/';
-import WestpacContent from '../ContentPages/Westpac';
+import folderASS from '/assets/FolderClosed.svg';
 
 function FolderButton({ name, Contents }) {
 
@@ -32,7 +32,7 @@ function FolderButton({ name, Contents }) {
                     sx={{ maxWidth: "140px" }} >
                     <img
                         id="Folder"
-                        src="/FolderClosed.svg" />
+                        src={folderASS} />
                     <Typography
                         variant="h5"
                         color="common.black"

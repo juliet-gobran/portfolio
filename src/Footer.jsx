@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Box } from '@mui/material/';
+import dockASS from '/assets/JulietsDock.svg';
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
       bottom="0"
       width="100%" >
       <Box component="img"
-        src="/JulietsDock.svg"
+        src={dockASS}
         width="60%" />
     </Box>
   );
