@@ -1,2 +1,2 @@
-# Juliet Gobran - Engineer + Designer 
-<p>This will be a portfolio hosting an array of projects that advocate my diverse skills in both programming & creativity.</p>
+# * OLD *
+<p>Check out my <a href="https://github.com/juliet-gobran/juliet-design">new portfolio.</a></p>
